@@ -7,8 +7,8 @@ import {
   SiNextdotjs,
   SiMongodb,
   SiJavascript,
+  IconType,
 } from "@icons-pack/react-simple-icons";
-import type { IconType } from "@icons-pack/react-simple-icons/types";
 import Link from "../../node_modules/next/link";
 
 interface Tech {

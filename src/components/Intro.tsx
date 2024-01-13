@@ -22,14 +22,13 @@ const Intro = () => {
               "Yo, Sinehan here",
               "If you didn't know Im Sinehan",
             ]}
-            pause={1500}
           />
         </h2>
         <p className="text-lg">
-          I'm 19 year old student studying computer science. I live to grow
+          I&apos;m 19 year old student studying computer science. I live to grow
           through challenges each of which will allow me to add to my toolbox. I
-          hope to one day create something I am proud to call my life's work. If
-          you'd like to get in contact my socials are below.
+          hope to one day create something I am proud to call my life&apos;s
+          work. If you&apos;d like to get in contact my socials are below.
         </p>
         <Socials />
       </section>

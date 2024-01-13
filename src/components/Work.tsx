@@ -28,7 +28,7 @@ const Work = () => {
           href={""}
         >
           <h3 className="text-lg font-semibold text-white mb-2">
-            <TypewriterText texts={["In Progress", "Elitecode"]} pause={3000} />
+            <TypewriterText texts={["In Progress", "Elitecode"]} />
           </h3>
           <p className="text-sm text-gray-400">Coming Soon...</p>
         </Link>
