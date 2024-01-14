@@ -1,4 +1,3 @@
-import internal from "stream";
 import Typewriter from "typewriter-effect";
 
 interface TyperwriterTextProps {
@@ -11,6 +10,7 @@ const TypewriterText: React.FC<TyperwriterTextProps> = ({ texts }) => {
       options={{
         strings: texts,
         delay: 110,
+        pauseFor: 100, // No type assertion needed
         autoStart: true,
         loop: true,
       }}
