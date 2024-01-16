@@ -1,19 +1,24 @@
-import Typewriter from "typewriter-effect";
+import Typewriter, { Options } from "typewriter-effect";
 
-interface TyperwriterTextProps {
+interface TypewriterTextProps {
   texts: string[];
 }
 
-const TypewriterText: React.FC<TyperwriterTextProps> = ({ texts }) => {
+interface ExtendedOptions extends Options {
+  pauseFor: number;
+}
+const TypewriterText: React.FC<TypewriterTextProps> = ({ texts }) => {
   return (
     <Typewriter
-      options={{
-        strings: texts,
-        delay: 110,
-        pauseFor: 100, // No type assertion needed
-        autoStart: true,
-        loop: true,
-      }}
+      options={
+        {
+          strings: texts,
+          delay: 110,
+          pauseFor: 100,
+          autoStart: true,
+          loop: true,
+        } as ExtendedOptions
+      }
     />
   );
 };
