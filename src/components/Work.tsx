@@ -37,7 +37,7 @@ const Work = () => {
         </Link>
         <Link
           className="p-4 rounded-md border border-solid border-gray-400"
-          href={"https://github.com/ezsinehan/study-box"}
+          href={"https://studybox.sinehan.dev/"}
         >
           <h3 className="text-lg font-semibold text-white mb-2">Studybox</h3>
           <p className="text-sm text-gray-400">Coming Soon...</p>
