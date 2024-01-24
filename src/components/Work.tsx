@@ -25,6 +25,16 @@ const Work = () => {
         </Link>
         <Link
           className="p-4 rounded-md border border-solid border-gray-400"
+          href={"https://studybox.sinehan.dev/"}
+        >
+          <h3 className="text-lg font-semibold text-white mb-2">Studybox</h3>
+          <p className="text-sm text-gray-400">
+            React-based studying platform, w/ a unique minimalist interface for
+            optimized learning and focus
+          </p>
+        </Link>
+        <Link
+          className="p-4 rounded-md border border-solid border-gray-400"
           href={"https://github.com/ezsinehan/wordle-game"}
         >
           <h3 className="text-lg font-semibold text-white mb-2">
@@ -34,13 +44,6 @@ const Work = () => {
             Object-oriented Wordle game using C++ for terminal play, with
             functional keyboard and local statistics.
           </p>
-        </Link>
-        <Link
-          className="p-4 rounded-md border border-solid border-gray-400"
-          href={"https://studybox.sinehan.dev/"}
-        >
-          <h3 className="text-lg font-semibold text-white mb-2">Studybox</h3>
-          <p className="text-sm text-gray-400">Coming Soon...</p>
         </Link>
         <Link
           className="p-4 rounded-md border border-solid border-gray-400"
@@ -55,7 +58,9 @@ const Work = () => {
           className="p-4 rounded-md border border-solid border-gray-400"
           href={""}
         >
-          <h3 className="text-lg font-semibold text-white mb-2">In Progress</h3>
+          <h3 className="text-lg font-semibold text-white mb-2">
+            <TypewriterText texts={["In Progress", "AquaAlerts"]} />
+          </h3>
           <p className="text-sm text-gray-400">Coming Soon...</p>
         </Link>
         <Link
