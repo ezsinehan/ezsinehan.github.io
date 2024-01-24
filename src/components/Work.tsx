@@ -37,18 +37,18 @@ const Work = () => {
         </Link>
         <Link
           className="p-4 rounded-md border border-solid border-gray-400"
-          href={""}
+          href={"https://github.com/ezsinehan/study-box"}
         >
-          <h3 className="text-lg font-semibold text-white mb-2">
-            <TypewriterText texts={["In Progress", "Elitecode"]} />
-          </h3>
+          <h3 className="text-lg font-semibold text-white mb-2">Studybox</h3>
           <p className="text-sm text-gray-400">Coming Soon...</p>
         </Link>
         <Link
           className="p-4 rounded-md border border-solid border-gray-400"
           href={""}
         >
-          <h3 className="text-lg font-semibold text-white mb-2">In Progress</h3>
+          <h3 className="text-lg font-semibold text-white mb-2">
+            <TypewriterText texts={["In Progress", "Elitecode"]} />
+          </h3>
           <p className="text-sm text-gray-400">Coming Soon...</p>
         </Link>
         <Link
