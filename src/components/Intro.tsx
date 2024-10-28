@@ -25,10 +25,13 @@ const Intro = () => {
           />
         </h2>
         <p className="text-lg">
-          I&apos;m 19 year old student studying computer science. I live to grow
-          through challenges each of which will allow me to add to my toolbox. I
-          hope to one day create something I am proud to call my life&apos;s
-          work. If you&apos;d like to get in contact my socials are below.
+          A dedicated computer science scholar with a passion for creating
+          boundary-pushing solutions, I thrive on solving complex problems and
+          am eager to bring my growing expertise in software development to an
+          impactful field. Whether it’s fixing a bug, analyzing data,
+          implementing a new feature, or writing documentation, I’m all in. I’m
+          ready to leverage my skills and energy into an internship—contact me
+          through my socials below.
         </p>
         <Socials />
       </section>

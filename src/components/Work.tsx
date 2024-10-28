@@ -13,6 +13,16 @@ const Work = () => {
       <section className="grid gap-4 sm:grid-cols-2">
         <Link
           className="p-4 rounded-md border border-solid border-gray-400"
+          href={"https://github.com/ezsinehan/calHacks2024-SAPPHIRE"}
+        >
+          <h3 className="text-lg font-semibold text-white mb-2">Sapphire</h3>
+          <p className="text-sm text-gray-400">
+            Swift-based macOS app with Apple Vision for local screen and gaze
+            monitoring, alerting you when off-task.
+          </p>
+        </Link>
+        <Link
+          className="p-4 rounded-md border border-solid border-gray-400"
           href={"https://github.com/ezsinehan/sinehanezhilmuthu.com"}
         >
           <h3 className="text-lg font-semibold text-white mb-2">
@@ -49,20 +59,18 @@ const Work = () => {
           className="p-4 rounded-md border border-solid border-gray-400"
           href={""}
         >
-          <h3 className="text-lg font-semibold text-white mb-2">
-            <TypewriterText texts={["In Progress", "Elitecode"]} />
-          </h3>
+          <h3 className="text-lg font-semibold text-white mb-2">In Progress</h3>
           <p className="text-sm text-gray-400">Coming Soon...</p>
         </Link>
-        <Link
+        {/* <Link
           className="p-4 rounded-md border border-solid border-gray-400"
           href={""}
         >
           <h3 className="text-lg font-semibold text-white mb-2">
-            <TypewriterText texts={["In Progress", "AquaAlerts"]} />
+            <TypewriterText texts={["In Progress", "Elitecode"]} />
           </h3>
           <p className="text-sm text-gray-400">Coming Soon...</p>
-        </Link>
+        </Link> */}
         <Link
           className="p-4 rounded-md border border-solid border-gray-400"
           href={""}
